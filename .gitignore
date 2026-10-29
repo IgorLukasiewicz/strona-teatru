@@ -1,0 +1,23 @@
+# Zależności (odtwarzane przez composer install)
+/vendor/
+/web/core/
+/web/modules/contrib/
+/web/themes/contrib/
+/web/profiles/contrib/
+/web/libraries/
+
+# Pliki generowane i wgrywane przez użytkowników
+/web/sites/*/files/
+/web/sites/*/private/
+
+# Lokalne ustawienia
+/web/sites/*/settings.local.php
+/web/sites/*/services.local.yml
+
+# Zrzuty baz i inne śmieci
+*.sql
+*.sql.gz
+*.dump
+node_modules/
+.idea/
+.DS_Store
